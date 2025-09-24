@@ -1,0 +1,57 @@
+<!doctype html><html lang=en><head><meta charset=utf-8><meta content="text/html; charset=utf-8" http-equiv=content-type><meta content="width=device-width,initial-scale=1.0" name=viewport><title>Introduction to sysclean(8) - kapouay.eu.org</title><link href=/style.css rel=stylesheet><link href=/favicon.ico rel=icon><link href=/atom.xml rel=alternate type=application/atom+xml><link href=https://maly.io/@semarie rel=me><meta content=article property=og:type><meta content="Introduction to sysclean(8)" property=og:title><body><nav class=site><ul><li><a href=/>About</a><li><a href=/notes/>Notes</a><li><a href=/bookmarks/>Bookmarks</a><li><a href=/tags>Tags</a></ul></nav><article><header><h1>Introduction to sysclean(8)</h1><ul class=properties><li>Published on 2023-09-19 by Sebastien Marie<li>Reading time: 5 minutes</li><a href=/tags/sysclean/>#sysclean</a></ul></header><nav class=toc><h1>Table of contents</h1><ul><li><a href=/notes/sysclean-intro/#sysclean-8-what-is-it>sysclean(8), what is it ?</a><li><a href=/notes/sysclean-intro/#the-reference-system>The reference system</a> <ul><li><a href=/notes/sysclean-intro/#locate-databases>locate databases</a><li><a href=/notes/sysclean-intro/#dev-makedev-script>/dev/MAKEDEV script</a><li><a href=/notes/sysclean-intro/#ports-tree-database>ports tree database</a><li><a href=/notes/sysclean-intro/#hardcoded-paths>hardcoded paths</a><li><a href=/notes/sysclean-intro/#sysmerge-8-sets>sysmerge(8) sets</a></ul><li><a href=/notes/sysclean-intro/#the-installed-system>The installed system</a></ul></nav><section><h1 id=sysclean-8-what-is-it>sysclean(8), what is it ?</h1><p><a href=/notes/sysclean-intro/manpage.html>sysclean(8)</a> is a system tool designed for help system administrator to keep their <a href=https://www.openbsd.org/>OpenBSD</a> clean after upgrade.<p>It walks the installed system and compare to a reference system, reporting to the user additionnal things in the installed system.<p>The purpose is to point any elements that wouldn't be present if a fresh install was done, instead of an upgrade.<h1 id=the-reference-system>The reference system</h1><p>The reference system is built from several local sources:<ul><li>the locate databases installed by the system<li>the <code>/dev/MAKEDEV</code> script<li>the ports tree database, for currently installed packages<li>a small set of hardcoded paths<li>sysmerge(8) sets for base and X(7)</ul><h2 id=locate-databases>locate databases</h2><p>The system is installed with two locate databases:<ul><li><code>/usr/lib/locate/src.db</code><li><code>/usr/X11R6/lib/locate/xorg.db</code></ul><p>The content is extractable with <a href=https://man.openbsd.org/locate.1>locate(1)</a><pre><code>$ locate -d /usr/lib/locate/src.db '/ls'
+base73:/bin/ls
+comp73:/usr/include/dev/ic/lsi64854reg.h
+comp73:/usr/include/dev/ic/lsi64854var.h
+comp73:/usr/share/man/man2/lseek.2
+comp73:/usr/share/man/man3/lsearch.3
+man73:/usr/share/man/man1/ls.1
+</code></pre><p>These files are built during the <a href=https://man.openbsd.org/release.8>release(8)</a> process, using the sets list files at <a href=https://cvsweb.openbsd.org/cgi-bin/cvsweb/src/distrib/sets/lists/>src/distrib/sets/lists/</a>.<h2 id=dev-makedev-script><code>/dev/MAKEDEV</code> script</h2><p>The <code>/dev</code> directory is populated at install time. So the sets doesn't have the exact list of files, and so locate databases doesn't have <code>/dev/</code> paths.<p>During the install (or the upgrade), installer runs the <code>/dev/MAKEDEV</code> script. This script is complex: it is built from m4 source files, with a machine dependant and machine independant mix (see the <code>MAKEDEV.*</code> files in <a href=https://cvsweb.openbsd.org/cgi-bin/cvsweb/src/etc/>src/etc/</a>).<p>To extract the list of paths for the reference system, the script is ran in "Echo-Only debugging" mode.<pre><code>$ eo=echo /dev/MAKEDEV std        
+rm -f console tty mem kmem null zero stdin stdout stderr ksyms klog xf86;
+mknod -m 600 console c 0 0
+   -m 666 tty c 1 0
+   -m 640 mem c 2 0
+   -m 640 kmem c 2 1
+   -m 666 null c 2 2
+   -m 666 zero c 2 12
+   -m 666 stdin c 22 0
+   -m 666 stdout c 22 1
+   -m 666 stderr c 22 2
+   -m 640 ksyms c 50 0
+   -m 600 klog c 7 0 
+   -m 600 xf86 c 2 4
+ && chgrp kmem mem
+ && chgrp kmem kmem
+ && chgrp kmem ksyms
+ && chgrp wheel console tty null zero stdin stdout stderr klog xf86
+</code></pre><p>Here, we asked for <code>std</code> set: only the "Standard devices". The output has been reindented for readability.<p>sysclean will slightly parse the output searching for <a href=https://man.openbsd.org/mknod.1><code>mknod(1)</code></a> command, and it extracts the device name.<h2 id=ports-tree-database>ports tree database</h2><p>The database of installed packages is at <code>/var/db/pkg/</code>.<p>The access to the database is done using the Perl API for <a href=https://man.openbsd.org/OpenBSD::Intro.3p>the pkg tools internals</a>, specially <a href=https://man.openbsd.org/OpenBSD::PackingList.3p>OpenBSD::PackingList</a> for the "pkg_add(1)" packing-list manipulations.<p>As sysclean is itself written in Perl, it is easier to use it.<p>From the command-line, the list of installed files from a package could be get with <a href=https://man.openbsd.org/pkg_info.1>pkg_info(1)</a>.<pre><code>$ pkg_info -L sysclean  
+Information for inst:sysclean-3.4
+
+Files:
+/usr/local/man/man8/sysclean.8
+/usr/local/sbin/sysclean
+/usr/local/share/examples/sysclean/sysclean.ignore
+
+</code></pre><h2 id=hardcoded-paths>hardcoded paths</h2><p>Some others paths are directly hardcoded in sysclean.<p>Usually, it is files which are created at first-time run (like ssh host keys), or installed by the installer but without using a set (like <code>/bsd</code> kernel, or the network configuration files at <a href=https://man.openbsd.org/hostname.if.5><code>/etc/hostname.*</code></a>).<p>But some configuration files has been added in this list too, and are only conditionnally added. So if the daemon isn't enabled, the configuration file isn't expected to be present.<p>For example, if <a href=https://man.openbsd.org/accton.8><code>accounting</code></a> is on, the logs at <code>/var/account/</code> are expected to be present.<p>The current configuration is exported using <a href=https://man.openbsd.org/rcctl.8>rcctl(8)</a>.<pre><code>$ rcctl ls on
+accounting
+apmd
+check_quotas
+cron
+dhcpleased
+hotplugd
+httpd
+library_aslr
+lpd
+ntpd
+obsdfreqd
+pf
+pflogd
+resolvd
+slaacd
+smtpd
+sndiod
+sshd
+syslogd
+unwind
+vmd
+xenodm
+</code></pre><h2 id=sysmerge-8-sets>sysmerge(8) sets</h2><p><a href=https://man.openbsd.org/sysmerge.8><code>sysmerge(8)</code></a> is a tool to update system configuration files.<p>It comes with <code>/var/sysmerge/etc.tgz</code> and <code>/var/sysmerge/xetc.tgz</code>, which contains the reference files corresponding to the currently installed system.<p>sysclean(8) will read <code>etc/master.passwd</code> and <code>etc/group</code> files from the <code>etc.tgz</code> tarball, to extract the expected list of users and groups.<h1 id=the-installed-system>The installed system</h1><p>It is the simpler part, as it is enough to walk:<ul><li>the filesystem, using <a href=https://man.openbsd.org/File::Find.3p>File::Find</a><li>the users, using <a href=https://man.openbsd.org/getpwent.3>getpwent(3)</a> (via perl API)<li>the groups, using <a href=https://man.openbsd.org/getgrent.3>getgrent(3)</a> (via perl API)</ul><p>For the filesystem, <code>File::Find</code> permit to cut the search and avoid going depth in unknown directories. So only the first level is reported by sysclean(8), and not all files in a unknown directory.</section><footer></footer></article>

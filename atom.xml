@@ -1,0 +1,2007 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>semarie&#x27;s site</title>
+    <subtitle>personal site</subtitle>
+    <link rel="self" type="application/atom+xml" href="/atom.xml"/>
+    <link rel="alternate" type="text/html" href="/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-09-24T07:14:41.841+00:00</updated>
+    <id>/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Binary Application Record Encoding (BARE)</title>
+        <published>2025-09-24T07:14:41.841+00:00</published>
+        <updated>2025-09-24T07:14:41.841+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-f0e100f86c1680100ab4aa38253e400fedac1b245e71ed2b82e1901ac1a3c103/"/>
+        <id>/bookmarks/bookmark-f0e100f86c1680100ab4aa38253e400fedac1b245e71ed2b82e1901ac1a3c103/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-f0e100f86c1680100ab4aa38253e400fedac1b245e71ed2b82e1901ac1a3c103/">&lt;p&gt;The Binary Application Record Encoding (BARE) is a data format used to
+represent application records for storage or transmission between
+programs. BARE messages are concise and have a well-defined schema, and
+implementations may be simple and broadly compatible. A schema language
+is also provided to express message schemas out-of-band.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>BARE Message Encoding</title>
+        <published>2025-09-24T07:10:48.069+00:00</published>
+        <updated>2025-09-24T07:10:48.069+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-a9635e3a6cb093809822b4172eab41d68dd4ce352279d110cb8bab5140fb7bf6/"/>
+        <id>/bookmarks/bookmark-a9635e3a6cb093809822b4172eab41d68dd4ce352279d110cb8bab5140fb7bf6/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-a9635e3a6cb093809822b4172eab41d68dd4ce352279d110cb8bab5140fb7bf6/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>VBARE: A simple alternative to Protobuf &amp; Cap&#x27;n Proto for schema evolution</title>
+        <published>2025-09-24T07:10:22.487+00:00</published>
+        <updated>2025-09-24T07:10:22.487+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-b604e6436f803bd741b8b87ef518bd6d35b5ad1be4322ee277c45025b6ae0367/"/>
+        <id>/bookmarks/bookmark-b604e6436f803bd741b8b87ef518bd6d35b5ad1be4322ee277c45025b6ae0367/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-b604e6436f803bd741b8b87ef518bd6d35b5ad1be4322ee277c45025b6ae0367/">&lt;p&gt;At Rivet, we&#x27;re building an open-source alternative to Cloudflare Durable Objects — a tool for running stateful compute workloads. VBARE is a small but crucial component in meeting the demanding performance requirements of Rivet Actors.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Application vs. Database: Where Should Permissions Live?</title>
+        <published>2025-09-18T16:10:07.054+00:00</published>
+        <updated>2025-09-18T16:10:07.054+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-7ec69159227eb0c88ade9f9fbd87719da62acf2477168bc898540442e88752db/"/>
+        <id>/bookmarks/bookmark-7ec69159227eb0c88ade9f9fbd87719da62acf2477168bc898540442e88752db/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-7ec69159227eb0c88ade9f9fbd87719da62acf2477168bc898540442e88752db/">&lt;p&gt;Permissions drift is real: scattered checks, forgotten filters, and data leaks. PostgreSQL’s Row Level Security (RLS) flips the script: pushing verification into the database for stronger safety, but with trade-offs in debugging and performance.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>All you need is data and functions</title>
+        <published>2025-09-17T05:06:20.469+00:00</published>
+        <updated>2025-09-17T05:06:20.469+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-98e0bd64f0ee6368705bdd7859c2de550b99a0e36862e22c711061526209ed0c/"/>
+        <id>/bookmarks/bookmark-98e0bd64f0ee6368705bdd7859c2de550b99a0e36862e22c711061526209ed0c/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-98e0bd64f0ee6368705bdd7859c2de550b99a0e36862e22c711061526209ed0c/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>sort-research-rs&#x2F;writeup&#x2F;driftsort_introduction&#x2F;text.md at main · Voultapher&#x2F;sort-research-rs</title>
+        <published>2025-09-09T07:19:58.217+00:00</published>
+        <updated>2025-09-09T07:19:58.217+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-9094066c8df949f8e7663acc55b581854804be78687e6112b0b610fc2b952ffb/"/>
+        <id>/bookmarks/bookmark-9094066c8df949f8e7663acc55b581854804be78687e6112b0b610fc2b952ffb/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-9094066c8df949f8e7663acc55b581854804be78687e6112b0b610fc2b952ffb/">&lt;p&gt;Test and benchmark suite for sort implementations. - Voultapher&#x2F;sort-research-rs&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Hosting an AT Protocol PDS without containerization - Charlotte Som</title>
+        <published>2025-09-08T08:47:26.328+00:00</published>
+        <updated>2025-09-08T08:47:26.328+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-42fa25df0e2c0b55c29fd18b41f8885671f4d5c94c16c434182f24ef6f63ed74/"/>
+        <id>/bookmarks/bookmark-42fa25df0e2c0b55c29fd18b41f8885671f4d5c94c16c434182f24ef6f63ed74/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-42fa25df0e2c0b55c29fd18b41f8885671f4d5c94c16c434182f24ef6f63ed74/">&lt;p&gt;A simple setup guide for a PDS without requiring Docker or Caddy&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>proof of concept FastPay-inspired Decentralized identifier method</title>
+        <published>2025-09-05T06:53:19.104+00:00</published>
+        <updated>2025-09-05T06:53:19.104+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-8f013c62e873bede36988f4d5932a70d5ebb6f5d856f0b747b21feae7f9dfc03/"/>
+        <id>/bookmarks/bookmark-8f013c62e873bede36988f4d5932a70d5ebb6f5d856f0b747b21feae7f9dfc03/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-8f013c62e873bede36988f4d5932a70d5ebb6f5d856f0b747b21feae7f9dfc03/">&lt;p&gt;proof of concept DID method&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>FastPay: High-Performance Byzantine Fault Tolerant Settlement</title>
+        <published>2025-09-05T06:51:37.107+00:00</published>
+        <updated>2025-09-05T06:51:37.107+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-e38cf06d6f7d6abc7695aed395a0836323ee1ae156c2f8e05bb7bece99dbf76a/"/>
+        <id>/bookmarks/bookmark-e38cf06d6f7d6abc7695aed395a0836323ee1ae156c2f8e05bb7bece99dbf76a/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-e38cf06d6f7d6abc7695aed395a0836323ee1ae156c2f8e05bb7bece99dbf76a/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Adversarial pds migration</title>
+        <published>2025-09-03T18:06:38.976+00:00</published>
+        <updated>2025-09-03T18:06:38.976+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-d373fe190acb71437f8cbcfbadc9798f8789bb8bb0beee5bf015e9e3cbd933cd/"/>
+        <id>/bookmarks/bookmark-d373fe190acb71437f8cbcfbadc9798f8789bb8bb0beee5bf015e9e3cbd933cd/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-d373fe190acb71437f8cbcfbadc9798f8789bb8bb0beee5bf015e9e3cbd933cd/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Evolution of the ELF object file format</title>
+        <published>2025-09-03T06:58:55.013+00:00</published>
+        <updated>2025-09-03T06:58:55.013+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-497c6fa9087ba4bf3774478d6851b4bb609a94d6aad37b173529d9c5a5e7e3cd/"/>
+        <id>/bookmarks/bookmark-497c6fa9087ba4bf3774478d6851b4bb609a94d6aad37b173529d9c5a5e7e3cd/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-497c6fa9087ba4bf3774478d6851b4bb609a94d6aad37b173529d9c5a5e7e3cd/">&lt;p&gt;The ELF object file format is adopted by many UNIX-like operating systems. While I&#x27;ve previously delved into the control structures of ELF and its predecessors, tracing the histori&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>ELF Object File Format - Official repository</title>
+        <published>2025-09-03T06:57:00.027+00:00</published>
+        <updated>2025-09-03T06:57:00.027+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-a16290f1b8b8169bdcdaf9f8b57d2693f803c80ce227ffaae3be9590b4d0bf13/"/>
+        <id>/bookmarks/bookmark-a16290f1b8b8169bdcdaf9f8b57d2693f803c80ce227ffaae3be9590b4d0bf13/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-a16290f1b8b8169bdcdaf9f8b57d2693f803c80ce227ffaae3be9590b4d0bf13/">&lt;p&gt;This document describes the ELF (Executable and Linking Format) object file format.
+This is the official repository for the ELF Object File Format specification, part of the SVR4 gABI.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>ELF Object File Format — ELF Object File Format 4.3 DRAFT documentation</title>
+        <published>2025-09-03T06:54:55.723+00:00</published>
+        <updated>2025-09-03T06:54:55.723+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-44b8ac296c21b1d40e550f376874ee7ee374b0f1a7aef74703c2597934b834e9/"/>
+        <id>/bookmarks/bookmark-44b8ac296c21b1d40e550f376874ee7ee374b0f1a7aef74703c2597934b834e9/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-44b8ac296c21b1d40e550f376874ee7ee374b0f1a7aef74703c2597934b834e9/">&lt;p&gt;This document describes the ELF (Executable and Linking Format) object file format. Chapter 1 presents an overview of the file format and its data representation. Chapters 2–6 describe the file header and the structures that pertain to building programs. Chapters 7 and 8 describe additional structures that are necessary to execute a program.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Why “caffè” may not be “caffè” – The BSD Cafe Journal</title>
+        <published>2025-09-01T13:30:20.015+00:00</published>
+        <updated>2025-09-01T13:30:20.015+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-61179d17d05f96b872edab41b038f1f5b2b7948fa2b474985a479aace3f5a556/"/>
+        <id>/bookmarks/bookmark-61179d17d05f96b872edab41b038f1f5b2b7948fa2b474985a479aace3f5a556/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-61179d17d05f96b872edab41b038f1f5b2b7948fa2b474985a479aace3f5a556/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>fry69&#x2F;bluesky-migration-guide: Notes on migrating a Bluesky account</title>
+        <published>2025-09-01T12:09:35.209+00:00</published>
+        <updated>2025-09-01T12:09:35.209+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-509c630dcfd083340f7ffdbf682d548f4d4e4d41c026f1e6f4dfa055a4391054/"/>
+        <id>/bookmarks/bookmark-509c630dcfd083340f7ffdbf682d548f4d4e4d41c026f1e6f4dfa055a4391054/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-509c630dcfd083340f7ffdbf682d548f4d4e4d41c026f1e6f4dfa055a4391054/">&lt;p&gt;Notes on migrating a Bluesky account . Contribute to fry69&#x2F;bluesky-migration-guide development by creating an account on GitHub.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>🛸 UFOs: Explore atproto lexicons</title>
+        <published>2025-09-01T06:46:56.948+00:00</published>
+        <updated>2025-09-01T06:46:56.948+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-f18df2138b1e73e42e980cc984fa897411aca7045ff83e36676d272ad6e7b161/"/>
+        <id>/bookmarks/bookmark-f18df2138b1e73e42e980cc984fa897411aca7045ff83e36676d272ad6e7b161/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-f18df2138b1e73e42e980cc984fa897411aca7045ff83e36676d272ad6e7b161/">&lt;p&gt;Sample records and timeseries statistics for &lt;em&gt;every&lt;&#x2F;em&gt; collection seen in the ATmosphere.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Tool Guides</title>
+        <published>2025-08-29T06:56:19.889+00:00</published>
+        <updated>2025-08-29T06:56:19.889+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-0f24e22058bad5b2ce126b73fe130b83abaed7622faf2c5c9b785ac263994f98/"/>
+        <id>/bookmarks/bookmark-0f24e22058bad5b2ce126b73fe130b83abaed7622faf2c5c9b785ac263994f98/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-0f24e22058bad5b2ce126b73fe130b83abaed7622faf2c5c9b785ac263994f98/">&lt;p&gt;Below are step-by-step tutorials to help you install and use handy privacy and security tools. Surveillance Self-Defense encourages you to think about online privacy and security in a sophisticated way. We want to give you the power to choose tools and habits that work for you. So, we recommend creating...&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Land ahoy: leaving the Sea of Nodes · V8</title>
+        <published>2025-08-29T06:42:08.011+00:00</published>
+        <updated>2025-08-29T06:42:08.011+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-4447b5ecc851eb6f388abdd3e4dba415a9b9f53acd4219164b4ae15ba24c54b3/"/>
+        <id>/bookmarks/bookmark-4447b5ecc851eb6f388abdd3e4dba415a9b9f53acd4219164b4ae15ba24c54b3/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-4447b5ecc851eb6f388abdd3e4dba415a9b9f53acd4219164b4ae15ba24c54b3/">&lt;p&gt;Why V8 decided to move away from Sea of Nodes and go back to CFG instead&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>You no longer need JavaScript</title>
+        <published>2025-08-29T06:38:44.890+00:00</published>
+        <updated>2025-08-29T06:38:44.890+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-d28ee2a28e056189e4f7bebdb86fd0cb58db8c912899b78f2671a886e3a8ac5a/"/>
+        <id>/bookmarks/bookmark-d28ee2a28e056189e4f7bebdb86fd0cb58db8c912899b78f2671a886e3a8ac5a/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-d28ee2a28e056189e4f7bebdb86fd0cb58db8c912899b78f2671a886e3a8ac5a/">&lt;p&gt;An overview of what makes modern CSS so awesome.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Exploring Perceus For OCaml</title>
+        <published>2025-08-16T06:53:30.440+00:00</published>
+        <updated>2025-08-16T06:53:30.440+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-34fbaefc4913e9894ea03413f9db1ba86372b57f403897d4bbe1bf9a3a710e8b/"/>
+        <id>/bookmarks/bookmark-34fbaefc4913e9894ea03413f9db1ba86372b57f403897d4bbe1bf9a3a710e8b/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-34fbaefc4913e9894ea03413f9db1ba86372b57f403897d4bbe1bf9a3a710e8b/">&lt;p&gt;A Direct Comparison between Precise Reference Counting and Generational Garbage Collection.
+Presented at the Higher-order, Typed, Inferred, Strict: ML Family Workshop 2023. Sep 8, 2023.
+ELTON PINTO, Georgia Institute of Technology, USA
+DAAN LEIJEN, Microsoft Research, USA&lt;&#x2F;p&gt;
+&lt;p&gt;The Perceus algorithm [Reinking, Xie et al. 2021] is a precise and garbage-free reference counting scheme which shows good performance in practice. However, the algorithm has only been compared
+against garbage-collection across different systems and languages. There is no direct comparison between Perceus and a garbage collector within the same system.
+In this work, we take a step towards this goal. We have implemented a prototype of Perceus for OCaml 4.14.0 (which subsumes the standard garbage collector [Doligez and Leroy 1993]). Now we can directly compare the performance of programs compiled with the exact same compiler, where we only switch the backend: either using the standard generational collector, or using Perceus compilation with a reference counted runtime system. The initial performance results look quite
+promising, motivating futher exploration.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Build systems à la carte: Theory and practice | Journal of Functional Programming | Cambridge Core</title>
+        <published>2025-08-02T09:27:18.411+00:00</published>
+        <updated>2025-08-02T09:27:18.411+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-12a3bd5099dacf38b1303709eed0127d2dc4cf5d65dd4f1f25f9058cf1677f4c/"/>
+        <id>/bookmarks/bookmark-12a3bd5099dacf38b1303709eed0127d2dc4cf5d65dd4f1f25f9058cf1677f4c/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-12a3bd5099dacf38b1303709eed0127d2dc4cf5d65dd4f1f25f9058cf1677f4c/">&lt;p&gt;Build systems à la carte: Theory and practice - Volume 30&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>odoc_for_authors</title>
+        <published>2025-07-26T12:54:29.305+00:00</published>
+        <updated>2025-07-26T12:54:29.305+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-6caa1518dfc2880bee2ed2547b99e09fcb8bdd8abf17f1dde09bbcc7c7d27b39/"/>
+        <id>/bookmarks/bookmark-6caa1518dfc2880bee2ed2547b99e09fcb8bdd8abf17f1dde09bbcc7c7d27b39/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-6caa1518dfc2880bee2ed2547b99e09fcb8bdd8abf17f1dde09bbcc7c7d27b39/">&lt;p&gt;This manual describes the features available and recommended for users in order to write great documentation with odoc.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Make Your Own Backup System – Part 1: Strategy Before Scripts</title>
+        <published>2025-07-18T13:14:03.203+00:00</published>
+        <updated>2025-07-18T13:14:03.203+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-01f2488994c8d9dc08d783402fa0df2eb7694cf527fbde5f402e913e33f9391f/"/>
+        <id>/bookmarks/bookmark-01f2488994c8d9dc08d783402fa0df2eb7694cf527fbde5f402e913e33f9391f/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-01f2488994c8d9dc08d783402fa0df2eb7694cf527fbde5f402e913e33f9391f/">&lt;p&gt;When a datacenter fire threatened 142 of my servers, my backup strategy had them back online in hours. This post shares my personal philosophy on creating a resilient system, focusing on the crucial planning that must happen before you write a single script.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Why Algebraic Effects?</title>
+        <published>2025-07-17T18:07:11.496+00:00</published>
+        <updated>2025-07-17T18:07:11.496+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-95d6e29741515d9e837841e996e996520c54d6934c654babeeca4e2c34a352a6/"/>
+        <id>/bookmarks/bookmark-95d6e29741515d9e837841e996e996520c54d6934c654babeeca4e2c34a352a6/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-95d6e29741515d9e837841e996e996520c54d6934c654babeeca4e2c34a352a6/">&lt;p&gt;For exploring algebraic effects, safe shared mutability, and other novel features&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>constrained languages are easier to optimize</title>
+        <published>2025-07-13T07:38:44.793+00:00</published>
+        <updated>2025-07-13T07:38:44.793+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-9fdeae5d995faad99328154d53590375fc4e9787d277baff691d006c4acd1507/"/>
+        <id>/bookmarks/bookmark-9fdeae5d995faad99328154d53590375fc4e9787d277baff691d006c4acd1507/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-9fdeae5d995faad99328154d53590375fc4e9787d277baff691d006c4acd1507/">&lt;p&gt;exposing raw pointers make the optimizer’s job horribly hard. high level languages can constrain your program, making more optimizations sound.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>git.infradead.org Git - users&#x2F;zab&#x2F;ngnfs-progs.git&#x2F;summary</title>
+        <published>2025-06-20T18:01:01.648+00:00</published>
+        <updated>2025-06-20T18:01:01.648+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-194b669e989d549101b3dc1c8ca6cf93713081f0579dfc6db915f6c530f84448/"/>
+        <id>/bookmarks/bookmark-194b669e989d549101b3dc1c8ca6cf93713081f0579dfc6db915f6c530f84448/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-194b669e989d549101b3dc1c8ca6cf93713081f0579dfc6db915f6c530f84448/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>FFS optimizations with dirhash</title>
+        <published>2025-06-09T09:02:41.731+00:00</published>
+        <updated>2025-06-09T09:02:41.731+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-6fc677772b5200818b9799567693c4b25f34af120295aab2c44c135075443e7d/"/>
+        <id>/bookmarks/bookmark-6fc677772b5200818b9799567693c4b25f34af120295aab2c44c135075443e7d/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-6fc677772b5200818b9799567693c4b25f34af120295aab2c44c135075443e7d/">&lt;p&gt;Rafael Sadowski&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Protocole d&#x27;autorisation par &quot;double anonymat&quot; pour la vérification d&#x27;âge respectueuse de la vie privée | Broken by Design</title>
+        <published>2025-06-05T12:51:10.820+00:00</published>
+        <updated>2025-06-05T12:51:10.820+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-728760ae943eb052290b7cfc5970858b763ce6eb57b921b223cb9db302e24ead/"/>
+        <id>/bookmarks/bookmark-728760ae943eb052290b7cfc5970858b763ce6eb57b921b223cb9db302e24ead/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-728760ae943eb052290b7cfc5970858b763ce6eb57b921b223cb9db302e24ead/">&lt;p&gt;Analyse comparative du protocole en double anonymat proposé par le LINC dans le cadre de la vérification de l&#x27;âge des utilisateurs, notamment de sites pornographiques en France, et de Privacy Pass&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Compression Algorithms You Probably Inherited: gzip, Snappy, LZ4, zstd</title>
+        <published>2025-06-02T06:32:11.398+00:00</published>
+        <updated>2025-06-02T06:32:11.398+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-fa8aee9f5f48ad9a3ff6de4e4ece12f7c0f8712a5c97e4b44c6311d09aeb09a6/"/>
+        <id>/bookmarks/bookmark-fa8aee9f5f48ad9a3ff6de4e4ece12f7c0f8712a5c97e4b44c6311d09aeb09a6/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-fa8aee9f5f48ad9a3ff6de4e4ece12f7c0f8712a5c97e4b44c6311d09aeb09a6/">&lt;p&gt;You Might Be Using The Wrong Compression Algorithm   If you work in data engineering, you’ve...&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>What’s Inside gzip, zstd, and Other Lossless Compressors</title>
+        <published>2025-06-02T06:30:18.342+00:00</published>
+        <updated>2025-06-02T06:30:18.342+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-c123a2b49ffecbbe1af4eacaae77512ab359bda58fcbec7b0ff6af8784f01e16/"/>
+        <id>/bookmarks/bookmark-c123a2b49ffecbbe1af4eacaae77512ab359bda58fcbec7b0ff6af8784f01e16/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-c123a2b49ffecbbe1af4eacaae77512ab359bda58fcbec7b0ff6af8784f01e16/">&lt;p&gt;Compression shows up everywhere - logs, Kafka, Parquet, file systems, APIs - but most engineers use...&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Bootstrapping HTTP&#x2F;1.1, HTTP&#x2F;2, and HTTP&#x2F;3</title>
+        <published>2025-05-31T07:07:20.940+00:00</published>
+        <updated>2025-05-31T07:07:20.940+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-8d72fba5bef590e738bfafc2b7ddc36fda9a6b5c0dacdee33b22c940bce80a3f/"/>
+        <id>/bookmarks/bookmark-8d72fba5bef590e738bfafc2b7ddc36fda9a6b5c0dacdee33b22c940bce80a3f/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-8d72fba5bef590e738bfafc2b7ddc36fda9a6b5c0dacdee33b22c940bce80a3f/">&lt;p&gt;How do we get from HTTP&#x2F;1.1 all the way to 11... I mean, to HTTP&#x2F;3? Let&#x27;s look at the path browsers take.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Viewing web logs the old fashioned way with Goaccess</title>
+        <published>2025-05-26T07:03:05.269+00:00</published>
+        <updated>2025-05-26T07:03:05.269+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-8d5d5b743583e2e0547254bb812e34715f5a5369f5ee84eb254937e8982c1032/"/>
+        <id>/bookmarks/bookmark-8d5d5b743583e2e0547254bb812e34715f5a5369f5ee84eb254937e8982c1032/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-8d5d5b743583e2e0547254bb812e34715f5a5369f5ee84eb254937e8982c1032/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>DNSViz | A DNS visualization tool</title>
+        <published>2025-05-24T04:41:01.932+00:00</published>
+        <updated>2025-05-24T04:41:01.932+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-4d6c998c8af8c39ccd572d3e63213b77f53ef5d40a1d9ce4a11cdcfb70065d24/"/>
+        <id>/bookmarks/bookmark-4d6c998c8af8c39ccd572d3e63213b77f53ef5d40a1d9ce4a11cdcfb70065d24/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-4d6c998c8af8c39ccd572d3e63213b77f53ef5d40a1d9ce4a11cdcfb70065d24/">&lt;p&gt;DNSViz is a tool for visualizing the status of a DNS zone. It was designed as a resource for understanding and troubleshooting deployment of the DNS Security Extensions (DNSSEC). It provides a visual analysis of the DNSSEC authentication chain for a domain name and its resolution path in the DNS namespace, and it lists configuration errors detected by the tool.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Vulnerability Database</title>
+        <published>2025-04-20T05:34:27.829+00:00</published>
+        <updated>2025-04-20T05:34:27.829+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-4d5b0d4c09fa270184ac5c49631937131187d10a92a01c4b9755998ca5e69a99/"/>
+        <id>/bookmarks/bookmark-4d5b0d4c09fa270184ac5c49631937131187d10a92a01c4b9755998ca5e69a99/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-4d5b0d4c09fa270184ac5c49631937131187d10a92a01c4b9755998ca5e69a99/">&lt;p&gt;European Union Vulnerability Database&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Four Years of Jai</title>
+        <published>2025-04-18T15:39:23.877+00:00</published>
+        <updated>2025-04-18T15:39:23.877+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-737a4348e6e6342cddc4e30029f3215648e2d2a6165e279d309200c03498e8bb/"/>
+        <id>/bookmarks/bookmark-737a4348e6e6342cddc4e30029f3215648e2d2a6165e279d309200c03498e8bb/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-737a4348e6e6342cddc4e30029f3215648e2d2a6165e279d309200c03498e8bb/">&lt;p&gt;I’ve been programming for long enough to be righteously cantankerous about a lot of things. The list of languages, frameworks and libraries I’ve worked with professionally or on personal projects is too long to list – but it includes everything from C and assembly languages through C++, Pascal and Delphi, through Java and Clojure, through Perl, PHP, Python, Javascript, Typescript and so on. I’ve tinkered with Rust, APL, Uiua, Erlang and Haskell.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Cross-Site WebSocket Hijacking Exploitation in 2025 - Include Security Research Blog</title>
+        <published>2025-04-18T08:20:20.372+00:00</published>
+        <updated>2025-04-18T08:20:20.372+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-825626b8501cd9ae0fe45ebc3b1ef33ea8ce4ab1225080bc0825cc0bab31b4a2/"/>
+        <id>/bookmarks/bookmark-825626b8501cd9ae0fe45ebc3b1ef33ea8ce4ab1225080bc0825cc0bab31b4a2/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-825626b8501cd9ae0fe45ebc3b1ef33ea8ce4ab1225080bc0825cc0bab31b4a2/">&lt;p&gt;Include Security&#x27;s latest blog post covers Cross-Site WebSocket Hijacking and how modern browser security features do (or don&#x27;t) protect users. We discuss Total Cookie Protection in Firefox, Private Network Access in Chrome, and review the SameSite attribute&#x27;s role in CSWH attacks. The post includes a few brief case studies based on situations encountered during real world testing, in addition to a simple test site that can be hosted by readers to explore each of the vulnerability conditions.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Unsure Calculator</title>
+        <published>2025-04-17T09:36:10.816+00:00</published>
+        <updated>2025-04-17T09:36:10.816+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-0e0760c9669f61e57b891e6848df096ec7b98944d7d880d17822afa81bad9ef0/"/>
+        <id>/bookmarks/bookmark-0e0760c9669f61e57b891e6848df096ec7b98944d7d880d17822afa81bad9ef0/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-0e0760c9669f61e57b891e6848df096ec7b98944d7d880d17822afa81bad9ef0/">&lt;p&gt;The Unsure Calculator is an online tool that lets you calculate with numbers you’re not sure about.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Atomicless Concurrency</title>
+        <published>2025-04-16T05:11:59.986+00:00</published>
+        <updated>2025-04-16T05:11:59.986+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-adecbe5602369383131cedee9b703fa1cd68a5b7898da5321a59a27e1b06db30/"/>
+        <id>/bookmarks/bookmark-adecbe5602369383131cedee9b703fa1cd68a5b7898da5321a59a27e1b06db30/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-adecbe5602369383131cedee9b703fa1cd68a5b7898da5321a59a27e1b06db30/">&lt;p&gt;This post gives an overview of how to build a CPU-local data structure on modern Linux. The exposition will be for x86, but other than the small bits of assembly you need to write, the technique is architecture-independent.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Free Time Stamp Authority</title>
+        <published>2025-04-05T17:02:49.775+00:00</published>
+        <updated>2025-04-05T17:02:49.775+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-e4f0e8328bf8818d5998a0086c6b7bb690be5b299ffe6cc9ee29f32ac630082c/"/>
+        <id>/bookmarks/bookmark-e4f0e8328bf8818d5998a0086c6b7bb690be5b299ffe6cc9ee29f32ac630082c/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-e4f0e8328bf8818d5998a0086c6b7bb690be5b299ffe6cc9ee29f32ac630082c/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Refus de communiquer le code d&#x27;un téléphone : le tribunal de Marseille écarte l&#x27;infraction sur le fondement du droit de l&#x27;UE - Polyope</title>
+        <published>2025-04-05T07:23:30.104+00:00</published>
+        <updated>2025-04-05T07:23:30.104+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-3bfedae06619c59a2480e483b2bc9eb650dd228b32000c2e0c1e8dd82fc13be4/"/>
+        <id>/bookmarks/bookmark-3bfedae06619c59a2480e483b2bc9eb650dd228b32000c2e0c1e8dd82fc13be4/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-3bfedae06619c59a2480e483b2bc9eb650dd228b32000c2e0c1e8dd82fc13be4/">&lt;p&gt;L’avocat au barreau de Paris, Alexis Baudelin, a récemment partagé sur son compte Instagram une décision surprenante rendue par le tribunal correctionnel de Marseille le 29 janvier 2025 (n°24159000644). Les juges ont estimé que l’article 434-15-2 du Code pénal, qui réprime le refus de communiquer une « convention secrète de déchiffrement » (le code d’un téléphone), ne pouvait être appliqué dans les conditions procédurales actuelles. Leur conclusion ? L’absence d’intervention d’une autorité véritablement indépendante au stade de l’enquête préliminaire ou de flagrance contrevient aux garanties imposées par la directive (UE) 2016&#x2F;680 et par la jurisprudence de la CJUE.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>BU-808: How to Prolong Lithium-based Batteries</title>
+        <published>2025-04-03T15:16:56.903+00:00</published>
+        <updated>2025-04-03T15:16:56.903+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-85b5c48c28516ab0257d1980674d0d9f4ff5214dff3fd6df62b5aa22412b702c/"/>
+        <id>/bookmarks/bookmark-85b5c48c28516ab0257d1980674d0d9f4ff5214dff3fd6df62b5aa22412b702c/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-85b5c48c28516ab0257d1980674d0d9f4ff5214dff3fd6df62b5aa22412b702c/">&lt;p&gt;BU meta description needed...&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>praetorian-inc&#x2F;noseyparker: Nosey Parker is a command-line tool that finds secrets and sensitive information in textual data and Git history.</title>
+        <published>2025-03-31T09:39:04.829+00:00</published>
+        <updated>2025-03-31T09:39:04.829+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-939e2b7eb4806a7b0b6653d4b14897a65d3c94912f0aa0a9552116b583bfd67b/"/>
+        <id>/bookmarks/bookmark-939e2b7eb4806a7b0b6653d4b14897a65d3c94912f0aa0a9552116b583bfd67b/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-939e2b7eb4806a7b0b6653d4b14897a65d3c94912f0aa0a9552116b583bfd67b/">&lt;p&gt;Nosey Parker is a command-line tool that finds secrets and sensitive information in textual data and Git history. - praetorian-inc&#x2F;noseyparker&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>ECMA-48</title>
+        <published>2025-03-30T07:12:37.096+00:00</published>
+        <updated>2025-03-30T07:12:37.096+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-8328ede8fb5e2101f9b5a17e166783a23ef4c07cc4c02c297cdd516bd1eb23e1/"/>
+        <id>/bookmarks/bookmark-8328ede8fb5e2101f9b5a17e166783a23ef4c07cc4c02c297cdd516bd1eb23e1/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-8328ede8fb5e2101f9b5a17e166783a23ef4c07cc4c02c297cdd516bd1eb23e1/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Home | endoflife.date</title>
+        <published>2025-03-29T13:47:36.308+00:00</published>
+        <updated>2025-03-29T13:47:36.308+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-c105416c5410866b850ca96f123e3eda5b69792d0d5b6c120227ae9096a704d4/"/>
+        <id>/bookmarks/bookmark-c105416c5410866b850ca96f123e3eda5b69792d0d5b6c120227ae9096a704d4/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-c105416c5410866b850ca96f123e3eda5b69792d0d5b6c120227ae9096a704d4/">&lt;p&gt;Check end-of-life, support schedule, and release timelines for more than 200 products at one place.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Traversal-resistant file APIs - The Go Programming Language</title>
+        <published>2025-03-27T15:03:03.796+00:00</published>
+        <updated>2025-03-27T15:03:03.796+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-ff0cd443f9272f93e5649cfc441be6bdc15c32050582ce30c589f170cba68b78/"/>
+        <id>/bookmarks/bookmark-ff0cd443f9272f93e5649cfc441be6bdc15c32050582ce30c589f170cba68b78/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-ff0cd443f9272f93e5649cfc441be6bdc15c32050582ce30c589f170cba68b78/">&lt;p&gt;New file access APIs in Go 1.24.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Breaking and Fixing Content-Defined Chunking</title>
+        <published>2025-03-26T14:04:41.091+00:00</published>
+        <updated>2025-03-26T14:04:41.091+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-bf7be46eed675cc3b4c4f72914dd47eb4dad800f69e8dbe2926937e45e1c412c/"/>
+        <id>/bookmarks/bookmark-bf7be46eed675cc3b4c4f72914dd47eb4dad800f69e8dbe2926937e45e1c412c/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-bf7be46eed675cc3b4c4f72914dd47eb4dad800f69e8dbe2926937e45e1c412c/">&lt;p&gt;A collection of my (future) writings about cryptography, music and other random stuff.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Prepping for post-quantum: a beginner’s guide to lattice cryptography</title>
+        <published>2025-03-24T09:44:55.264+00:00</published>
+        <updated>2025-03-24T09:44:55.264+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-ac9210febd20f366ece547e5a65e803ac32e172857e533b3773ba0d3bb01e567/"/>
+        <id>/bookmarks/bookmark-ac9210febd20f366ece547e5a65e803ac32e172857e533b3773ba0d3bb01e567/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-ac9210febd20f366ece547e5a65e803ac32e172857e533b3773ba0d3bb01e567/">&lt;p&gt;This post is a beginner&#x27;s guide to lattices, the math at the heart of the transition to post-quantum (PQ) cryptography. It explains how to do lattice-based encryption and authentication from scratch.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Identifying HTTPS-Protected Netflix Videos in Real-Time</title>
+        <published>2025-03-24T05:54:30.347+00:00</published>
+        <updated>2025-03-24T05:54:30.347+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-ac9673fc523c03e7d2270626f6c33e39ee8df28e6f903f50a32771ad6edfb8ad/"/>
+        <id>/bookmarks/bookmark-ac9673fc523c03e7d2270626f6c33e39ee8df28e6f903f50a32771ad6edfb8ad/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-ac9673fc523c03e7d2270626f6c33e39ee8df28e6f903f50a32771ad6edfb8ad/">&lt;p&gt;we demonstrate that it is possible to
+accurately identify Netflix videos from passive traffic capture in real-time with very limited hardware requirements. Specifically,
+we developed a system that can report the Netflix video being delivered by a TCP connection using only the information provided by TCP&#x2F;IP headers.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Padmé: Efficiently hiding file sizes</title>
+        <published>2025-03-24T05:50:30.389+00:00</published>
+        <updated>2025-03-24T05:50:30.389+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-b45804bbd50acf6b5a76202787d44ba8dfd56f6f49f20b6aabed238e644451dc/"/>
+        <id>/bookmarks/bookmark-b45804bbd50acf6b5a76202787d44ba8dfd56f6f49f20b6aabed238e644451dc/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-b45804bbd50acf6b5a76202787d44ba8dfd56f6f49f20b6aabed238e644451dc/">&lt;p&gt;Padmé is a padding algorithm. It hides efficiently the true size of objects (files or network messages). Padmé is designed to work even when objects have very different sizes, and notably outperforms trivial padding approaches.
+Its overhead is at most +12%, and this number decreases with increasing object size: at most +6% for a 1Mb object, at most +3% for a 1Gb object.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Chunking Attacks on File Backup Services using Content-Defined Chunking</title>
+        <published>2025-03-22T06:10:02.355+00:00</published>
+        <updated>2025-03-22T06:10:02.355+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-c644777d597163ed295ad50cfe2af9732f25fef56a94166562d9a057c6b11c28/"/>
+        <id>/bookmarks/bookmark-c644777d597163ed295ad50cfe2af9732f25fef56a94166562d9a057c6b11c28/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-c644777d597163ed295ad50cfe2af9732f25fef56a94166562d9a057c6b11c28/">&lt;p&gt;Systems such as file backup services often use content-defined chunking (CDC) algorithms,
+especially those based on rolling hash techniques, to split files into chunks in a way that allows for data deduplication. These chunking algorithms often depend on per-user parameters in an attempt to avoid leaking information about the data being stored. We present attacks to extract these chunking parameters and discuss protocol-agnostic attacks and loss of security once the parameters are breached (including when these parameters are not setup at all, which is often
+available as an option). Our parameter-extraction attacks themselves are protocol-specific but their ideas are generalizable to many potential CDC schemes.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Type Systems for Memory Safety</title>
+        <published>2025-03-21T12:39:46.629+00:00</published>
+        <updated>2025-03-21T12:39:46.629+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-312b81473435ed7d90fdca5064b4147c2498efedeb54a211fa1d24561bc33fc8/"/>
+        <id>/bookmarks/bookmark-312b81473435ed7d90fdca5064b4147c2498efedeb54a211fa1d24561bc33fc8/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-312b81473435ed7d90fdca5064b4147c2498efedeb54a211fa1d24561bc33fc8/">&lt;p&gt;A survey of type systems for memory safety.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Region-Based Memory Management in Cyclone</title>
+        <published>2025-03-21T12:09:44.341+00:00</published>
+        <updated>2025-03-21T12:09:44.341+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-ef3d51b7e6e9ebed1678df4bbb18db57abd29febc75121a8b4a3ff8e7c1bfde5/"/>
+        <id>/bookmarks/bookmark-ef3d51b7e6e9ebed1678df4bbb18db57abd29febc75121a8b4a3ff8e7c1bfde5/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-ef3d51b7e6e9ebed1678df4bbb18db57abd29febc75121a8b4a3ff8e7c1bfde5/">&lt;p&gt;Cyclone is a type-safe programming language derived from C. The primary design goal of Cyclone is to let programmers control data representation and memory management
+without sacrificing type-safety. In this paper, we focus on the region-based memory management of Cyclone and its static typing discipline. The design incorporates several advancements, including support for region subtyping and a
+coherent integration with stack allocation and a garbage collector.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Capability-Based Computer Systems</title>
+        <published>2025-03-21T10:49:04.997+00:00</published>
+        <updated>2025-03-21T10:49:04.997+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-5b435b0fcfafc262238691fbcf01d6b41badd6eafc9c7cd4cce9d77d3ff94edd/"/>
+        <id>/bookmarks/bookmark-5b435b0fcfafc262238691fbcf01d6b41badd6eafc9c7cd4cce9d77d3ff94edd/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-5b435b0fcfafc262238691fbcf01d6b41badd6eafc9c7cd4cce9d77d3ff94edd/">&lt;p&gt;This book was published by Digital Press in 1984. It is still the most thorough survey and description of early capability-based and object-based hardware and software systems.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>How Capabilities Work in Austral</title>
+        <published>2025-03-21T10:47:03.950+00:00</published>
+        <updated>2025-03-21T10:47:03.950+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-6780fb41bc7b26c4abdca1c522ca02a246c08e3f449cff0f5cf6d801726242e9/"/>
+        <id>/bookmarks/bookmark-6780fb41bc7b26c4abdca1c522ca02a246c08e3f449cff0f5cf6d801726242e9/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-6780fb41bc7b26c4abdca1c522ca02a246c08e3f449cff0f5cf6d801726242e9/">&lt;p&gt;A walkthrough of Austral&#x27;s capability-based security features.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>How Austral’s Linear Type Checker Works</title>
+        <published>2025-03-21T10:46:35.581+00:00</published>
+        <updated>2025-03-21T10:46:35.581+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-2b805c5e1809e9620a171512135cb1bac2b487af1a380b679c1b1fa830167c85/"/>
+        <id>/bookmarks/bookmark-2b805c5e1809e9620a171512135cb1bac2b487af1a380b679c1b1fa830167c85/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-2b805c5e1809e9620a171512135cb1bac2b487af1a380b679c1b1fa830167c85/">&lt;p&gt;A walkthrough of Austral&#x27;s linearity checker algorithm.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>The Austral Programming Language</title>
+        <published>2025-03-21T10:32:35.402+00:00</published>
+        <updated>2025-03-21T10:32:35.402+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-ee274b020f85c44559529809179d12d3fee18189833ca03537e4e6a941047411/"/>
+        <id>/bookmarks/bookmark-ee274b020f85c44559529809179d12d3fee18189833ca03537e4e6a941047411/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-ee274b020f85c44559529809179d12d3fee18189833ca03537e4e6a941047411/">&lt;p&gt;Austral is a systems programming language. It uses linear types to provide memory safety and capability-secure code, and is designed to be simple enough to be understood by a single person, with a focus on readability, maintainbility, and modularity.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>CVE-2024-9956 - PassKey Account Takeover in All Mobile Browsers</title>
+        <published>2025-03-20T07:27:02.371+00:00</published>
+        <updated>2025-03-20T07:27:02.371+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-81ccda2b8c9a429a3a1c17684dccabe21860c74e796533dd24478ebbb0ed1b9a/"/>
+        <id>/bookmarks/bookmark-81ccda2b8c9a429a3a1c17684dccabe21860c74e796533dd24478ebbb0ed1b9a/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-81ccda2b8c9a429a3a1c17684dccabe21860c74e796533dd24478ebbb0ed1b9a/">&lt;p&gt;Phishing PassKeys credentials using browser intents&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Red Programming Language</title>
+        <published>2025-03-19T19:02:32.280+00:00</published>
+        <updated>2025-03-19T19:02:32.280+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-ddad48d0439eb5d100f4fc3f23867103c5a6b4b911f92bc3a71332e9f49e950a/"/>
+        <id>/bookmarks/bookmark-ddad48d0439eb5d100f4fc3f23867103c5a6b4b911f92bc3a71332e9f49e950a/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-ddad48d0439eb5d100f4fc3f23867103c5a6b4b911f92bc3a71332e9f49e950a/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>SAML roulette: the hacker always wins</title>
+        <published>2025-03-19T08:11:29.897+00:00</published>
+        <updated>2025-03-19T08:11:29.897+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-9745f6dd0ba2df40200313ce16172252d8bfe102ee29d94ed907774adddc4fe3/"/>
+        <id>/bookmarks/bookmark-9745f6dd0ba2df40200313ce16172252d8bfe102ee29d94ed907774adddc4fe3/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-9745f6dd0ba2df40200313ce16172252d8bfe102ee29d94ed907774adddc4fe3/">&lt;p&gt;Introduction In this post, we’ll show precisely how to chain round-trip attacks and namespace confusion to achieve unauthenticated admin access on GitLab Enterprise by exploiting the ruby-saml library&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Something From Nothing - Breaking AES encrypted firmwares</title>
+        <published>2025-03-18T19:23:45.350+00:00</published>
+        <updated>2025-03-18T19:23:45.350+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-3b189d71db34cd82bc203678faff0c4386c4d4e57ebc99288578063ae50c1a0c/"/>
+        <id>/bookmarks/bookmark-3b189d71db34cd82bc203678faff0c4386c4d4e57ebc99288578063ae50c1a0c/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-3b189d71db34cd82bc203678faff0c4386c4d4e57ebc99288578063ae50c1a0c/">&lt;p&gt;Using machine learning to break AES encrypted firmware&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>chshersh&#x2F;ccl: 📜 CCL: Categorical Configuration Language, The most elegant configuration language</title>
+        <published>2025-03-18T19:16:40.767+00:00</published>
+        <updated>2025-03-18T19:16:40.767+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-d1893a3208f65aef13430c0b22dafebbe4e3801328d678c9bc6cfd6e6d6e503c/"/>
+        <id>/bookmarks/bookmark-d1893a3208f65aef13430c0b22dafebbe4e3801328d678c9bc6cfd6e6d6e503c/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-d1893a3208f65aef13430c0b22dafebbe4e3801328d678c9bc6cfd6e6d6e503c/">&lt;p&gt;📜 CCL: Categorical Configuration Language, The most elegant configuration language - chshersh&#x2F;ccl&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>The Most Elegant Configuration Language</title>
+        <published>2025-03-18T19:15:07.884+00:00</published>
+        <updated>2025-03-18T19:15:07.884+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-1797b4281eae950fa1a5695089f75e40ac7b44cfcd77c74d6c7a24ecb1858221/"/>
+        <id>/bookmarks/bookmark-1797b4281eae950fa1a5695089f75e40ac7b44cfcd77c74d6c7a24ecb1858221/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-1797b4281eae950fa1a5695089f75e40ac7b44cfcd77c74d6c7a24ecb1858221/">&lt;p&gt;CCL: Categorical Configuration Language&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Universal Parcel Tracking - Global Package Tracking</title>
+        <published>2025-03-17T18:59:54.481+00:00</published>
+        <updated>2025-03-17T18:59:54.481+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-1055dde85b04baa49aed0ac9406967ed52322be84d6a7a2483f00f267d667d0a/"/>
+        <id>/bookmarks/bookmark-1055dde85b04baa49aed0ac9406967ed52322be84d6a7a2483f00f267d667d0a/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-1055dde85b04baa49aed0ac9406967ed52322be84d6a7a2483f00f267d667d0a/">&lt;p&gt;Parcel Tracking Worldwide. Track Parcel in USA. Global postal tracking from eBay, AliExpress, ASOS, Shein, Amazon. Tracking packages from China, UK, Germany&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>IANA WHOIS Service</title>
+        <published>2025-03-17T18:59:25.838+00:00</published>
+        <updated>2025-03-17T18:59:25.838+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-080262016972b0bb5aa0ac329637099a3172ab289c2a5e37c7d692f330ed5f70/"/>
+        <id>/bookmarks/bookmark-080262016972b0bb5aa0ac329637099a3172ab289c2a5e37c7d692f330ed5f70/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-080262016972b0bb5aa0ac329637099a3172ab289c2a5e37c7d692f330ed5f70/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>ICANN Lookup</title>
+        <published>2025-03-17T18:59:05.503+00:00</published>
+        <updated>2025-03-17T18:59:05.503+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-c8a3a06b8dd88d5449c8f251f1ae54c8f8a6d6c2a118c076c1e3d6a46d9d3f85/"/>
+        <id>/bookmarks/bookmark-c8a3a06b8dd88d5449c8f251f1ae54c8f8a6d6c2a118c076c1e3d6a46d9d3f85/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-c8a3a06b8dd88d5449c8f251f1ae54c8f8a6d6c2a118c076c1e3d6a46d9d3f85/">&lt;p&gt;The ICANN registration data lookup tool gives you the ability to look up the current registration data for domain names and Internet number resources.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>RDAP Lookup - a private domain name lookup tool - RDAP.ORG</title>
+        <published>2025-03-17T18:58:15.118+00:00</published>
+        <updated>2025-03-17T18:58:15.118+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-989002a9810ae8c8f55637cf9ac3f71889a953ca6128add005d0ef7ff0abeca0/"/>
+        <id>/bookmarks/bookmark-989002a9810ae8c8f55637cf9ac3f71889a953ca6128add005d0ef7ff0abeca0/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-989002a9810ae8c8f55637cf9ac3f71889a953ca6128add005d0ef7ff0abeca0/">&lt;p&gt;A completely private domain name lookup tool using RDAP (the replacement for Whois)&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>portroach - openbsd distfile scanner</title>
+        <published>2025-03-17T18:57:44.808+00:00</published>
+        <updated>2025-03-17T18:57:44.808+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-22ba1cbf8b3bdb8365dacdb129cc7a2f2851c4ef52139090b6750120bc0a3886/"/>
+        <id>/bookmarks/bookmark-22ba1cbf8b3bdb8365dacdb129cc7a2f2851c4ef52139090b6750120bc0a3886/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-22ba1cbf8b3bdb8365dacdb129cc7a2f2851c4ef52139090b6750120bc0a3886/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>ClearSky</title>
+        <published>2025-03-17T18:54:41.165+00:00</published>
+        <updated>2025-03-17T18:54:41.165+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-89fc4e6900078c2c9d02e55d4fecb720079c17b0ab241a5a91942abd701e6ddb/"/>
+        <id>/bookmarks/bookmark-89fc4e6900078c2c9d02e55d4fecb720079c17b0ab241a5a91942abd701e6ddb/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-89fc4e6900078c2c9d02e55d4fecb720079c17b0ab241a5a91942abd701e6ddb/">&lt;p&gt;ClearSky - See farther&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>PDSls</title>
+        <published>2025-03-17T18:53:53.544+00:00</published>
+        <updated>2025-03-17T18:53:53.544+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-3cef96f2ce7ef146a9b126a9a48eefb83d226c0ee7a4f6e6a4349d260a62405c/"/>
+        <id>/bookmarks/bookmark-3cef96f2ce7ef146a9b126a9a48eefb83d226c0ee7a4f6e6a4349d260a62405c/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-3cef96f2ce7ef146a9b126a9a48eefb83d226c0ee7a4f6e6a4349d260a62405c/">&lt;p&gt;Browse and manage atproto repositories&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>DNS History</title>
+        <published>2025-03-17T18:53:03.273+00:00</published>
+        <updated>2025-03-17T18:53:03.273+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-d44ac9e90b498e6fac4b813a7a49ba4bfe316b4fab0da478f0b0902cc0d66e56/"/>
+        <id>/bookmarks/bookmark-d44ac9e90b498e6fac4b813a7a49ba4bfe316b4fab0da478f0b0902cc0d66e56/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-d44ac9e90b498e6fac4b813a7a49ba4bfe316b4fab0da478f0b0902cc0d66e56/">&lt;p&gt;Domain Name System (DNS) Historical Record Archive&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Zonemaster</title>
+        <published>2025-03-17T18:50:41.248+00:00</published>
+        <updated>2025-03-17T18:50:41.248+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-adf4ae7f364a24cd6e14407515c9a1974601f8e6edd9fdd9f4d0e97d180538f2/"/>
+        <id>/bookmarks/bookmark-adf4ae7f364a24cd6e14407515c9a1974601f8e6edd9fdd9f4d0e97d180538f2/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-adf4ae7f364a24cd6e14407515c9a1974601f8e6edd9fdd9f4d0e97d180538f2/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>RSS 2.0 Specification</title>
+        <published>2025-03-17T13:04:13.972+00:00</published>
+        <updated>2025-03-17T13:04:13.972+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-769fe2599ee7300905dd9a326d4f5f8e737a93c4ab86e3ae456448eccb6ee5ac/"/>
+        <id>/bookmarks/bookmark-769fe2599ee7300905dd9a326d4f5f8e737a93c4ab86e3ae456448eccb6ee5ac/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-769fe2599ee7300905dd9a326d4f5f8e737a93c4ab86e3ae456448eccb6ee5ac/">&lt;p&gt;The current version of the RSS 2.0 specification (2.0.11), published on March 30, 2009.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Time-lock encryption</title>
+        <published>2025-03-17T07:53:44.568+00:00</published>
+        <updated>2025-03-17T07:53:44.568+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-31944b70b5999f8113ee0ad6b284d37ad2a581c254542782431e3d7e2b70fe2b/"/>
+        <id>/bookmarks/bookmark-31944b70b5999f8113ee0ad6b284d37ad2a581c254542782431e3d7e2b70fe2b/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-31944b70b5999f8113ee0ad6b284d37ad2a581c254542782431e3d7e2b70fe2b/">&lt;p&gt;How do you encrypt a file such that it can be decrypted after a date, but not before? Use serial computations for proof-of-work using successive squaring, chained hashes, or witness encryption on blockchains.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Types de fibres multimodes : OM1 - OM2 - OM3 - OM4 - OM5</title>
+        <published>2025-03-17T07:43:52.744+00:00</published>
+        <updated>2025-03-17T07:43:52.744+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-4843f2e2656217251b38fa5e77a4f27a65005f19c548fda77666ea53252dafc4/"/>
+        <id>/bookmarks/bookmark-4843f2e2656217251b38fa5e77a4f27a65005f19c548fda77666ea53252dafc4/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-4843f2e2656217251b38fa5e77a4f27a65005f19c548fda77666ea53252dafc4/">&lt;p&gt;La fibre multimode est un choix courant pour atteindre un débit de 10 Gbit&#x2F;s sur les distances requises par les applications des entreprises et des centres de données en réseau local. OM1, OM2, OM3, OM4 ou OM5, laquelle choisir ? Vous trouverez peut-être la réponse dans cet article.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Guide reseau domestique</title>
+        <published>2025-03-17T07:37:14.838+00:00</published>
+        <updated>2025-03-17T07:37:14.838+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-9ee60b58d058f4c8c8a08cb2f249192f5c3f3a15423154957f6fd8e7786e3c21/"/>
+        <id>/bookmarks/bookmark-9ee60b58d058f4c8c8a08cb2f249192f5c3f3a15423154957f6fd8e7786e3c21/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-9ee60b58d058f4c8c8a08cb2f249192f5c3f3a15423154957f6fd8e7786e3c21/">&lt;p&gt;Ce guide communautaire à vocation à aider le grand public à faire un réseau domestique, que ce soit avec de la fibre, du câble Ethernet, du câble coaxial, du câble audio...&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>The fascinating security model of dark web marketplaces</title>
+        <published>2025-03-16T19:14:11.620+00:00</published>
+        <updated>2025-03-16T19:14:11.620+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-f48ab16c0a73751378a2a4ac4d4338fe8d30644984197ef7d223f2f51a75d9a6/"/>
+        <id>/bookmarks/bookmark-f48ab16c0a73751378a2a4ac4d4338fe8d30644984197ef7d223f2f51a75d9a6/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-f48ab16c0a73751378a2a4ac4d4338fe8d30644984197ef7d223f2f51a75d9a6/">&lt;p&gt;Captchas, Monero, Scams and absolutely no JavaScript&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Common Misconceptions about Compilers</title>
+        <published>2025-03-16T19:13:19.663+00:00</published>
+        <updated>2025-03-16T19:13:19.663+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-eafd28f93c16bd78159d5e159e98cc71158c39bdb0d126445771e3be6bc60646/"/>
+        <id>/bookmarks/bookmark-eafd28f93c16bd78159d5e159e98cc71158c39bdb0d126445771e3be6bc60646/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-eafd28f93c16bd78159d5e159e98cc71158c39bdb0d126445771e3be6bc60646/">&lt;p&gt;A curated list of misconceptions about mainstream compilers.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Data Race Freedom à la Mode</title>
+        <published>2025-03-16T19:12:11.368+00:00</published>
+        <updated>2025-03-16T19:12:11.368+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-5b4b17e3fec0188288fce8770116df23cbea5cd6ccb1369e74efa06961d0bd8d/"/>
+        <id>/bookmarks/bookmark-5b4b17e3fec0188288fce8770116df23cbea5cd6ccb1369e74efa06961d0bd8d/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-5b4b17e3fec0188288fce8770116df23cbea5cd6ccb1369e74efa06961d0bd8d/">&lt;p&gt;We present DRFCaml, an extension of OCaml’s type system that guarantees data race freedom for multithreaded OCaml programs while retaining backward compatibility with existing sequential OCaml code.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Preservation of Speculative Constant-Time by Compilation</title>
+        <published>2025-03-16T19:10:02.379+00:00</published>
+        <updated>2025-03-16T19:10:02.379+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-1a04c916bbe066806acaabd2c50c23ffe85fe62344e0e43e074df8872c891d0a/"/>
+        <id>/bookmarks/bookmark-1a04c916bbe066806acaabd2c50c23ffe85fe62344e0e43e074df8872c891d0a/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-1a04c916bbe066806acaabd2c50c23ffe85fe62344e0e43e074df8872c891d0a/">&lt;p&gt;Compilers often weaken or even discard software-based countermeasures commonly used to protect programs against side-channel attacks; worse, they may also introduce vulnerabilities that attackers can exploit.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Using the most unhinged AVX-512 instruction to make the fastest phrase search algo</title>
+        <published>2025-03-16T19:09:15.636+00:00</published>
+        <updated>2025-03-16T19:09:15.636+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-bb2064d19b51d6b957c0991f9ee0832a60d57c1e358372bdd614676504b1a768/"/>
+        <id>/bookmarks/bookmark-bb2064d19b51d6b957c0991f9ee0832a60d57c1e358372bdd614676504b1a768/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-bb2064d19b51d6b957c0991f9ee0832a60d57c1e358372bdd614676504b1a768/">&lt;p&gt;Disclaimers before we start For those who don’t want to read&#x2F;don’t care that much, here are the results. I hope after seeing them you are compelled to read. TL;DR: I wrote a super fast phrase search algorithm using AVX-512 and achieved wins up to 1600x the performance of Meilisearch. The source code can be found here, and here is the crate. The contents of this blog post are inspired by the wonderful idea of Doug Turnbull from the series of blog posts about Roaringish. Here we will take these ideas to an extreme, from smart algorithms to raw performance optimization. I highly recommend reading the Roaringish blog post, but if you don’t want to, there will be a recap on how it works. This project has been almost 7 months in the making, with thousands and thousands of lines of code written and rewritten, so bear with me if I sound crazy. At the moment of writing, there are almost 2.7k LOC, but I have committed around 17k LOC (let’s take a few thousand because of .lock files) (probably at the time of publishing this number has increased), so the project has been rewritten almost 6 times.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Writing ARM Assembly (Part 1)</title>
+        <published>2025-03-16T19:08:47.946+00:00</published>
+        <updated>2025-03-16T19:08:47.946+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-a9dd97a26ec287a7ae28677fcb585a1c9a8642d25ab98d0c8912079812cfeea2/"/>
+        <id>/bookmarks/bookmark-a9dd97a26ec287a7ae28677fcb585a1c9a8642d25ab98d0c8912079812cfeea2/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-a9dd97a26ec287a7ae28677fcb585a1c9a8642d25ab98d0c8912079812cfeea2/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>ChatGPT : le mythe de la productivité</title>
+        <published>2025-03-16T19:06:36.638+00:00</published>
+        <updated>2025-03-16T19:06:36.638+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-8ac8e205deba5a2486651668047f8d2854e79498fc8dc99e25de894d1f557dd4/"/>
+        <id>/bookmarks/bookmark-8ac8e205deba5a2486651668047f8d2854e79498fc8dc99e25de894d1f557dd4/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-8ac8e205deba5a2486651668047f8d2854e79498fc8dc99e25de894d1f557dd4/">&lt;p&gt;Pourquoi pensons-nous que dans lart, il y a quelque chose qui ne peut pas être créé en appuyant sur un bouton ? Les grands modèles de ...&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Simple Ways to Run OCaml Code</title>
+        <published>2025-03-16T19:04:20.421+00:00</published>
+        <updated>2025-03-16T19:04:20.421+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-f62b2529ee8aa6a86d62720191184712f61d67178b5f3307a2bbde1120829d51/"/>
+        <id>/bookmarks/bookmark-f62b2529ee8aa6a86d62720191184712f61d67178b5f3307a2bbde1120829d51/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-f62b2529ee8aa6a86d62720191184712f61d67178b5f3307a2bbde1120829d51/">&lt;p&gt;When people think of OCaml they are usually thinking of compiling code to a binary before they are able to run it. While most OCaml code is indeed compiled to binaries, you don’t really need to do this, especially while you’re learning the language and are mostly playing with small exercises.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>billallison&#x2F;bluesky_raindrops: This is a bot that takes specially tagged saved Raindrop.io links and posts them to Bluesky</title>
+        <published>2025-03-16T18:41:30.206+00:00</published>
+        <updated>2025-03-16T18:41:30.206+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-9b10ad14fd9204fa33d097ba0b0dfe668492d0637ed915cbb66ed15c1cf8e7c7/"/>
+        <id>/bookmarks/bookmark-9b10ad14fd9204fa33d097ba0b0dfe668492d0637ed915cbb66ed15c1cf8e7c7/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-9b10ad14fd9204fa33d097ba0b0dfe668492d0637ed915cbb66ed15c1cf8e7c7/">&lt;p&gt;This is a bot that takes specially tagged saved Raindrop.io links and posts them to Bluesky - billallison&#x2F;bluesky_raindrops&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>An exploration of SBCL internals - simonsafar.com</title>
+        <published>2025-03-16T15:51:59.508+00:00</published>
+        <updated>2025-03-16T15:51:59.508+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-56627fcda97326fc33d8feefb0569429650eb763a72e71f4eb72b4f86278d977/"/>
+        <id>/bookmarks/bookmark-56627fcda97326fc33d8feefb0569429650eb763a72e71f4eb72b4f86278d977/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-56627fcda97326fc33d8feefb0569429650eb763a72e71f4eb72b4f86278d977/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Optimal Bounds for Open Addressing Without Reordering</title>
+        <published>2025-03-16T14:19:10.054+00:00</published>
+        <updated>2025-03-16T14:19:10.054+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-b124e0565a2693ea0632e8619eb1f281a198ec1bd259bcf9e88a26ca87605ef1/"/>
+        <id>/bookmarks/bookmark-b124e0565a2693ea0632e8619eb1f281a198ec1bd259bcf9e88a26ca87605ef1/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-b124e0565a2693ea0632e8619eb1f281a198ec1bd259bcf9e88a26ca87605ef1/">&lt;p&gt;hashtable&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>UTS #55: Unicode Source Code Handling</title>
+        <published>2024-12-01T13:50:45+00:00</published>
+        <updated>2024-12-01T13:50:45+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-acb146c1d7dbcbd4ec2ad9685f2aa3f6bf137eac2645bc1b9ed53fee9d03ce46/"/>
+        <id>/bookmarks/bookmark-acb146c1d7dbcbd4ec2ad9685f2aa3f6bf137eac2645bc1b9ed53fee9d03ce46/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-acb146c1d7dbcbd4ec2ad9685f2aa3f6bf137eac2645bc1b9ed53fee9d03ce46/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Implementing Type Systems as Macros</title>
+        <published>2024-11-15T16:45:03+00:00</published>
+        <updated>2024-11-15T16:45:03+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-a66eb4b8be060afd51bb55013e61a4da7bf5683f93f652978c1534de124d2379/"/>
+        <id>/bookmarks/bookmark-a66eb4b8be060afd51bb55013e61a4da7bf5683f93f652978c1534de124d2379/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-a66eb4b8be060afd51bb55013e61a4da7bf5683f93f652978c1534de124d2379/">&lt;p&gt;There’s a neat paper Type Systems as Macros by Chang, Knauth, and Greenman [1] that describes how to implement a typed language using an untyped host language and macro expansion. The paper is neat, but I found the code hard to follow—the paper uses a compact notation that’s convenient for print, but not so much for reproducing on one’s own. This post is my attempt to implement and explain in more accessible terms what’s presented in the paper.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Scheduling Model in LLVM - Part I</title>
+        <published>2024-08-06T10:25:28+00:00</published>
+        <updated>2024-08-06T10:25:28+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-a5561b6540694da89402e1f2a9e7b32f7c63c2840ea865b94940deb58e355665/"/>
+        <id>/bookmarks/bookmark-a5561b6540694da89402e1f2a9e7b32f7c63c2840ea865b94940deb58e355665/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-a5561b6540694da89402e1f2a9e7b32f7c63c2840ea865b94940deb58e355665/">&lt;p&gt;Instruction scheduling is essential to modern compilers. It tries to hide latencies and increases the throughput of a straight line code by reordering the enclosing instructions. In order to do that, compilers have to know a whole bunch of information, ranging from individal instruction’s latency to microarchitecture details. The system that describes these is called a scheduling model. In LLVM, a scheduling model is used by not just the instruction scheduler, but also target-specific optimizations like MachineCombiner and components like MCA (Machine Code Analyzer)1.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>https:&#x2F;&#x2F;drew.silcock.dev&#x2F;blog&#x2F;how-postgres-stores-data-on-disk</title>
+        <published>2024-08-05T13:54:24+00:00</published>
+        <updated>2024-08-05T13:54:24+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-93d928b91fa85917a72591ad7e4c95577623823273b8f5f192ad594790f40d15/"/>
+        <id>/bookmarks/bookmark-93d928b91fa85917a72591ad7e4c95577623823273b8f5f192ad594790f40d15/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-93d928b91fa85917a72591ad7e4c95577623823273b8f5f192ad594790f40d15/">&lt;p&gt;A high-level overview of how PostgreSQL stores data on disk, covering segments, pages and more.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>The Open Group Base Specifications Issue 8</title>
+        <published>2024-07-25T07:03:39+00:00</published>
+        <updated>2024-07-25T07:03:39+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-3c805bdaa63efe21acf0ce56ead20c4cb6371e98b80addd3286b0c0b426e6376/"/>
+        <id>/bookmarks/bookmark-3c805bdaa63efe21acf0ce56ead20c4cb6371e98b80addd3286b0c0b426e6376/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-3c805bdaa63efe21acf0ce56ead20c4cb6371e98b80addd3286b0c0b426e6376/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Low-Level Software Security for Compiler Developers</title>
+        <published>2024-06-23T07:12:27+00:00</published>
+        <updated>2024-06-23T07:12:27+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-f8ce72bbeb94085e5040d8af556cb85c0e290abff85852e1bbf6de540d01950b/"/>
+        <id>/bookmarks/bookmark-f8ce72bbeb94085e5040d8af556cb85c0e290abff85852e1bbf6de540d01950b/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-f8ce72bbeb94085e5040d8af556cb85c0e290abff85852e1bbf6de540d01950b/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Lockfree Programming: A Mental Model</title>
+        <published>2024-06-15T08:17:06+00:00</published>
+        <updated>2024-06-15T08:17:06+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-501251be32fd17e0e8a5907ac0cdf991f2d6bafb60de019979084f95178a9433/"/>
+        <id>/bookmarks/bookmark-501251be32fd17e0e8a5907ac0cdf991f2d6bafb60de019979084f95178a9433/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-501251be32fd17e0e8a5907ac0cdf991f2d6bafb60de019979084f95178a9433/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Compiler Optimizations</title>
+        <published>2024-05-25T10:11:28+00:00</published>
+        <updated>2024-05-25T10:11:28+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-4ebe0984ac18159c8d932d2067dc06d8ac5cfaae8131e485f56151240bbcfaca/"/>
+        <id>/bookmarks/bookmark-4ebe0984ac18159c8d932d2067dc06d8ac5cfaae8131e485f56151240bbcfaca/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-4ebe0984ac18159c8d932d2067dc06d8ac5cfaae8131e485f56151240bbcfaca/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Compilers for free with weval</title>
+        <published>2024-05-19T08:48:46+00:00</published>
+        <updated>2024-05-19T08:48:46+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-08d4951ddf96da608c583cd2913fa35efa3ab15094d0edc9559eedc8a4805220/"/>
+        <id>/bookmarks/bookmark-08d4951ddf96da608c583cd2913fa35efa3ab15094d0edc9559eedc8a4805220/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-08d4951ddf96da608c583cd2913fa35efa3ab15094d0edc9559eedc8a4805220/">&lt;p&gt;With some partial evaluation and specialization hints, it is possible to get pretty decent speedups on interpreters by turning them into compilers.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>User-Level Implementations of Read-Copy Update RCU</title>
+        <published>2024-03-27T13:34:15+00:00</published>
+        <updated>2024-03-27T13:34:15+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-f3953b0f3123b0127521bf1451c82cac9bffc98e89e0dfe663fa20fefd014f40/"/>
+        <id>/bookmarks/bookmark-f3953b0f3123b0127521bf1451c82cac9bffc98e89e0dfe663fa20fefd014f40/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-f3953b0f3123b0127521bf1451c82cac9bffc98e89e0dfe663fa20fefd014f40/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>Garbage Collection for Systems Programmers</title>
+        <published>2024-03-27T13:28:09+00:00</published>
+        <updated>2024-03-27T13:28:09+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-4468a94cbf516142a6e316911ee32491c7a435465c451908d9bd486a17c7f615/"/>
+        <id>/bookmarks/bookmark-4468a94cbf516142a6e316911ee32491c7a435465c451908d9bd486a17c7f615/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-4468a94cbf516142a6e316911ee32491c7a435465c451908d9bd486a17c7f615/">&lt;p&gt;Yet another programming blog. Thoughts on software and related misadventures.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>An Incremental Approach to Compiler Construction</title>
+        <published>2024-02-01T19:45:40+00:00</published>
+        <updated>2024-02-01T19:45:40+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-a3a7bbc69ee6372fc73b4bbabaa9fbe03828f4568143a5380eb573b7c4d0e117/"/>
+        <id>/bookmarks/bookmark-a3a7bbc69ee6372fc73b4bbabaa9fbe03828f4568143a5380eb573b7c4d0e117/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-a3a7bbc69ee6372fc73b4bbabaa9fbe03828f4568143a5380eb573b7c4d0e117/"></content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>How to stop Linux threads cleanly</title>
+        <published>2024-01-10T10:05:37+00:00</published>
+        <updated>2024-01-10T10:05:37+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-08493f6e034ad32c75572c04f4062738f71662a86d6140a4aab431c3666c49c8/"/>
+        <id>/bookmarks/bookmark-08493f6e034ad32c75572c04f4062738f71662a86d6140a4aab431c3666c49c8/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-08493f6e034ad32c75572c04f4062738f71662a86d6140a4aab431c3666c49c8/">&lt;p&gt;Stopping a Linux thread is a surprisingly annoying affair. In this post I present common pitfalls and some solutions -- although no truly satisfactory method exists.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+    <entry xml:lang="en">
+        <title>https:&#x2F;&#x2F;github.com&#x2F;norvig&#x2F;paip-lisp</title>
+        <published>2023-12-26T12:18:04+00:00</published>
+        <updated>2023-12-26T12:18:04+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="/bookmarks/bookmark-67165db3afa50ae33d5a7c18c551d7a8fc493d52424d25ad8067a433552d3391/"/>
+        <id>/bookmarks/bookmark-67165db3afa50ae33d5a7c18c551d7a8fc493d52424d25ad8067a433552d3391/</id>
+        
+        <content type="html" xml:base="/bookmarks/bookmark-67165db3afa50ae33d5a7c18c551d7a8fc493d52424d25ad8067a433552d3391/">&lt;p&gt;Lisp code for the textbook &amp;quot;Paradigms of Artificial Intelligence Programming&amp;quot; - norvig&#x2F;paip-lisp&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>
