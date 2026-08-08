@@ -1,0 +1,7 @@
+ErrorDocument 404 /404.html
+Options -Indexes
+
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{REQUEST_URI} !\.well-known
+RewriteRule ^ https:\/\/kapouay\.eu\.org%{REQUEST_URI} [R=301,L]
